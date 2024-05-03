@@ -1,0 +1,17 @@
+PS C:\Users\yurie\TEST\git_tutorial> cd C:\Users\yurie\Desktop\git_challenge
+PS C:\Users\yurie\Desktop\git_challenge> git init
+Initialized empty Git repository in C:/Users/yurie/Desktop/git_challenge/.git/
+PS C:\Users\yurie\Desktop\git_challenge> git init
+Reinitialized existing Git repository in C:/Users/yurie/Desktop/git_challenge/.git/
+PS C:\Users\yurie\Desktop\git_challenge> git add hello_world.txt
+PS C:\Users\yurie\Desktop\git_challenge> git commit -m "hello_world.txtを追加"
+[main fd5391c] hello_world.txt繧定ｿｽ蜉
+ 1 file changed, 1 insertion(+)
+PS C:\Users\yurie\Desktop\git_challenge> git add hello_world.txt
+PS C:\Users\yurie\Desktop\git_challenge> git commit -m "日本語訳を追記"
+[main eaa1cc6] 譌･譛ｬ隱櫁ｨｳ繧定ｿｽ險
+ 1 file changed, 1 insertion(+)
+PS C:\Users\yurie\Desktop\git_challenge> git log --oneline
+eaa1cc6 (HEAD -> main) 日本語訳を追記
+fd5391c hello_world.txtを追加
+8ae3012 hello_world.txtを追加
